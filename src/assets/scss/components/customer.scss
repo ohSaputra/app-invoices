@@ -1,0 +1,52 @@
+/* CUSTOMER SECTION */
+.customer {
+	margin-top: 30px;
+
+	p {
+		color: $emailgray;
+		font-size: 13.33px;
+		line-height: 22px;
+
+		strong {
+			color: #222222;
+		}
+	}
+
+	.price {
+		h5 {
+			color: $emailgray;
+			font-size: 10px;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+			clear: both;
+
+			span {
+				float: left;
+
+				&.price-type {
+				    color: #fff;
+				    padding: 3px 10px;
+				    font-size: 8.33px;
+				    border-radius: 3px;
+				    margin-left: 5px;
+				    margin-top: -2px;
+				    display: inline-block;
+				    letter-spacing: 1px;
+
+				    &.cash {
+					    background: #48B74D;
+				    }
+				    &.gopay {
+					    background: #5CA5DA;
+				    }
+				}
+			}
+		}
+		h2 {
+			color: #222222;
+			font-weight: 700;
+			font-size: 20px;
+			clear: both;
+		}
+	}
+}

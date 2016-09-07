@@ -1,0 +1,80 @@
+/* DETAILS */
+
+.details {
+	.no-padding {
+		padding: 0;
+	}
+
+	.invoice {
+		padding: 0;
+
+		.invoice-border {
+			padding: 0;
+			padding-bottom: 5px;
+			border-bottom: 1px solid #C3C3C3;
+			margin-bottom: 15px;
+
+			.bordered-dash {
+				padding: 0 15px;
+				padding-top: 10px;
+				border-bottom: 1px dashed #C3C3C3;
+				margin-bottom: 3px;
+
+				&:last-child {
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+
+	p {
+		color: #757575;
+		font-size: 11.67px;
+
+		> span {
+			margin-left: 15px;
+		}
+	}
+
+	.total {
+		padding: 0 15px;
+
+		p {
+			padding: 5px 0;
+			font-weight: 700;
+			margin-bottom: 0;
+		}
+
+		.price {
+			font-size: 13.33px;
+			color: #505050;
+			font-weight: 700;
+		}
+
+		span {
+		    color: #fff;
+		    padding: 3px 10px;
+		    font-size: 8.33px;
+		    border-radius: 3px;
+		    font-weight: 300;
+		    text-transform: uppercase;
+	        margin-left: 5px;
+		    float: right;
+		    display: inline-block;
+		    letter-spacing: 1px;
+
+		    &.cash {
+			    background: #48B74D;
+		    }
+		    &.gopay {
+			    background: #5CA5DA;
+		    }
+		}
+
+		.total-price {
+			font-size: 16.67px;
+			color: #505050;
+			line-height: 16px;
+		}
+	}
+}

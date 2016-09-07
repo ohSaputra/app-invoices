@@ -1,0 +1,126 @@
+@import 'helper';
+@import 'main-logo';
+@import 'customer';
+@import 'title';
+@import 'order';
+@import 'details';
+@import 'footer';
+
+.container {
+	margin: 30px auto !important;
+
+	&.goride {
+		border-top: 6px solid $goride;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-goride.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $goride;
+		}
+	}
+
+	&.gopulsa {
+		border-top: 6px solid $gopulsa;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gopulsa.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gopulsa;
+		}
+	}
+
+	&.gotix {
+		border-top: 6px solid $gotix;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gotix.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gotix;
+		}
+	}
+
+	&.gofood {
+		border-top: 6px solid $gofood;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gofood.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gofood;
+		}
+	}
+
+	&.gomart {
+		border-top: 6px solid $gomart;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gomart.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gomart;
+		}
+	}
+
+	&.gomed {
+		border-top: 6px solid $gomed;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gomed.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gomed;
+		}
+	}
+	&.gobox {
+		border-top: 6px solid $gobox;
+
+		.main-logo {
+			a {
+				background: url('../assets/img/logo-gobox.svg') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gobox;
+		}
+	}
+}
+
+/* SEPARATOR */
+.line-separator {
+	border-bottom: 1px solid #E7E7E7;
+	margin: 20px 16px;
+}
+
+@media screen and (max-width: 616px) {
+	.container {
+		&.goride {	
+			.main-logo {
+				a {
+					background: url('../assets/img/logo-goride.svg') no-repeat center center;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+/* FOOTER */
+
+.footer {
+    border-top: 1px dashed #C3C3C3;
+
+    .footer-body {
+    	padding: 30px;
+    	text-align: center;
+
+    	h3 {
+    		font-size: 11.67px;
+    		color: #7B7B7B;
+    		font-weight: 700;
+    		margin-bottom: 15px;
+    		text-align: center;
+    	}
+
+    	.social {
+    		text-align: center;
+    		margin-bottom: 15px;
+
+    		.circle {
+    			border-radius: 50%;
+    			background-color: #BDBDBD !important;
+    			width: 32.28px;
+    			height: 32.28px;
+                margin: 0 2px;
+    			display: inline-block;
+
+    			&.twitter {
+					background: url('../assets/img/twitter.svg') no-repeat center center;
+    			}
+    			&.facebook {
+					background: url('../assets/img/facebook.svg') no-repeat center center;
+    			}
+    			&.linkedin {
+					background: url('../assets/img/linkedin.svg') no-repeat center center;
+    			}
+    			&.instagram {
+					background: url('../assets/img/insta.svg') no-repeat center center;
+    			}
+    			&.youtube {
+					background: url('../assets/img/youtube.svg') no-repeat center center;
+    			}
+    		}
+    	}
+
+    	p {
+    		font-size: 10px;
+    		text-align: center;
+    		color: #7B7B7B;
+
+            strong {
+                display: inline-block;
+            }
+    	}
+    }
+}

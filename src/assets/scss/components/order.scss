@@ -1,0 +1,156 @@
+/* DETAIL ORDER */
+.order {
+	.map {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.order-detail {
+		padding-bottom: 0 !important;
+		
+		.dashed-box,
+		.food-driver {
+			border-top: 1px dashed #C3C3C3;
+			border-bottom: 1px dashed #C3C3C3;
+
+			.profile {
+				padding: 15px 0;
+
+				.picture {
+					width: 54.17px;
+					padding: 0 5px;
+					height: auto;
+
+					img {
+						border-radius: 50%; 
+					}
+				}
+				.driver,
+				.rating {
+					width: 35%;
+					padding: 0 5px;
+
+					h5 {
+						font-size: 8.33px;
+						margin-bottom: 5px;
+						text-transform: uppercase;
+						font-weight: 700;
+					}
+					span {
+						font-size: 11.67px;
+						color: $emailgray;
+						display: block;
+					}
+				}
+				.rating {
+					width: 45%;
+					padding: 0 5px;
+
+					td.star {
+					    width: 11.11px;
+					    display: inline-block;
+
+						i {
+							background: url('../assets/img/star.svg') no-repeat center left;
+							background-size: 11.11px;
+						    height: 10px;
+						    display: block;
+						}
+					}
+				}
+			}
+		}
+		.food-driver {
+			border: 0;
+
+			.profile {
+				.picture {
+					padding-top: 7px;
+				}
+
+				.driver,
+				.rating {
+					margin-bottom: 15px;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.pickup,
+	.food-pickup {
+		padding: 30px;
+		padding-bottom: 5px;
+		padding-left: 30px;
+
+		.title {
+			font-size: 8.33px;
+			font-weight: 700;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+
+			i {
+				height: 12px;
+				width: 10px;
+				display: inline-block;
+			    margin-left: -20px;
+			    background-size: 10px !important;
+			    padding-right: 7px;
+			    position: absolute;
+			    margin-top: -2px;
+
+			    &.blue {
+			    	background: url('../assets/img/pickup.svg') no-repeat center left;
+			    }
+
+			    &.yellow {
+			    	background: url('../assets/img/destination.svg') no-repeat center left;
+			    }
+			}
+		}
+
+		p {
+			font-size: 11.67px;
+			color: #757575;
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+
+	.food-pickup {
+		padding: 0 30px;
+
+		.title {
+			i {
+				&.blue {
+			    	background: url('../assets/img/merchant.svg') no-repeat center left;
+			    }
+			}
+		}
+	}
+
+	.support {
+	    padding: 15px;
+	    background-color: #F8F8F8;
+	    border: 1px solid #D1D1D1;
+	    text-align: center;
+
+	    h4 {
+	    	font-size: 11.67px;
+	    	color: $gobox;
+	    	text-align: center;
+	    }
+	    p {
+	    	font-size: 10px;
+	    	color: #757575;
+	    }
+	    strong {
+	    	font-size: 11.67px;
+	    }
+	}
+}
