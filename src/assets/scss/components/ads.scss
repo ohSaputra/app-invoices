@@ -1,0 +1,53 @@
+.ads {
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	padding: 15px;
+	background: #FCFCFC;
+
+	h3 {
+	    color: #505050;
+	    font-weight: 700;
+	    margin: 20px 0;
+	    font-size: 13.33px;
+	    text-align: center;
+	    text-transform: capitalize;
+	}
+
+	.wrappers {
+		padding: 0 15px;
+	}
+
+	img {
+		margin: 0 auto;
+		border: 1px solid #979797;
+	}
+
+	h5 {
+		font-size: 11px;
+		margin: 10px 0;
+		text-transform: capitalize;
+		text-align: center;
+		color: #505050;
+
+		&.text-left {
+			text-align: left;
+			margin-top: 0;
+		}
+	}
+	p {
+		font-size: 8px;
+		text-align: center;
+		color: #979797;
+
+		&.text-left {
+			text-align: left;
+		}
+	}
+	a {
+		color: #7C7C7C;
+		text-decoration: none;
+		font-size: 10px;
+		font-weight: 700;
+		cursor: pointer;
+	}
+}

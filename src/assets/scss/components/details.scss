@@ -23,8 +23,16 @@
 				&:last-child {
 					border-bottom: 0;
 				}
+
+				p {
+					line-height: 20px;
+				}
 			}
 		}
+	}
+
+	span[class*="width-"] {
+		display: inline-block;
 	}
 
 	p {
@@ -75,6 +83,14 @@
 			font-size: 16.67px;
 			color: #505050;
 			line-height: 16px;
+		}
+	}
+
+	.current-gopay {
+		font-size: 13.33px;
+
+		strong {
+			color: #757575;
 		}
 	}
 }

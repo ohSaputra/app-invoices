@@ -4,6 +4,7 @@
 @import 'title';
 @import 'order';
 @import 'details';
+@import 'ads';
 @import 'footer';
 
 .container {
@@ -14,7 +15,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-goride.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-goride.png') no-repeat center left;
 			}
 		}
 
@@ -23,12 +24,36 @@
 		}
 	}
 
+	&.gopay {
+		border-top: 6px solid $gopay;
+
+		.main-logo {
+			a {
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gopay.png') no-repeat center left;
+			}
+		}
+
+		.logo-name {
+			color: $gopay;
+		}
+
+		.invoice-border .bordered-dash p {
+			font-weight: 100;
+		}
+
+		.details .total {
+			border-bottom: 1px solid #E7E7E7;
+		    margin-bottom: 15px;
+		    border-width: 0.833px;
+		}
+	}
+
 	&.gopulsa {
 		border-top: 6px solid $gopulsa;
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gopulsa.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gopulsa.png') no-repeat center left;
 			}
 		}
 
@@ -42,7 +67,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gotix.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gotix.png') no-repeat center left;
 			}
 		}
 
@@ -56,7 +81,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gofood.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gofood.png') no-repeat center left;
 			}
 		}
 
@@ -70,7 +95,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gomart.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gomart.png') no-repeat center left;
 			}
 		}
 
@@ -84,7 +109,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gomed.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gomed.png') no-repeat center left;
 			}
 		}
 
@@ -97,7 +122,7 @@
 
 		.main-logo {
 			a {
-				background: url('../assets/img/logo-gobox.svg') no-repeat center left;
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gobox.png') no-repeat center left;
 			}
 		}
 
@@ -118,7 +143,7 @@
 		&.goride {	
 			.main-logo {
 				a {
-					background: url('../assets/img/logo-goride.svg') no-repeat center center;
+					background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-goride.png') no-repeat center center;
 				}
 			}
 		}
