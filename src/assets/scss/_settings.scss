@@ -29,15 +29,15 @@ $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 600px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 30px;
 $body-background: $light-gray;
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
-$global-rounded: 500px;
+$global-rounded: 300px;
 $global-breakpoint: $global-width + $global-gutter;
-$emailgray: lighten(#757575, 10%);
+$emailgray: #757575;
 $goride: #F9AE3C;
 $gopulsa: #26B16F;
 $gotix: #f16933;
@@ -46,6 +46,7 @@ $gomart: #3C95D1;
 $gomed: #006738;
 $gobox: #A0642F;
 $gopay: #5CA5DA;
+$gojek: #8CC63F;
 
 // 2. Grid
 // -------
@@ -64,7 +65,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: Helvetica, sans-serif;
+$body-font-family: 'HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;

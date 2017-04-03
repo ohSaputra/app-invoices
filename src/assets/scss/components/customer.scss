@@ -4,11 +4,19 @@
 
 	p {
 		color: $emailgray;
-		font-size: 13.33px;
-		line-height: 22px;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: left;
 
 		strong {
 			color: #222222;
+		}
+	}
+
+	p.content {
+		a {
+			color: #757575;
+			font-weight: bold;
 		}
 	}
 
@@ -82,6 +90,22 @@
 			font-weight: 700;
 			font-size: 20px;
 			clear: both;
+		}
+	}
+
+	.btn-activation,
+	.btn-activation:hover {
+		margin: 40px auto;
+
+		table td {
+			background: none;
+			border: none;
+		}
+		a {
+			background-color: #8CC63F;
+			border: 2px solid #74AD29;
+			border-radius: 4px;
+			letter-spacing: 1px;
 		}
 	}
 }

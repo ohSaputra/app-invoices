@@ -1,6 +1,7 @@
 @import 'helper';
 @import 'main-logo';
 @import 'customer';
+@import 'attention';
 @import 'title';
 @import 'order';
 @import 'details';
@@ -8,7 +9,14 @@
 @import 'footer';
 
 .container {
+	min-width: auto;
+	max-width: $global-width;
+	width: 100% !important;
 	margin: 30px auto !important;
+
+	center {
+		min-width: auto !important;
+	}
 
 	&.goride {
 		border-top: 6px solid $goride;
@@ -130,6 +138,20 @@
 			color: $gobox;
 		}
 	}
+	&.gojek {
+		border-top: 6px solid $gojek;
+
+		.main-logo {
+			a {
+				background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-gojek.png') no-repeat center center;
+				background-size: 130px;
+			}
+		}
+
+		.logo-name {
+			color: $gojek;
+		}
+	}
 }
 
 /* SEPARATOR */
@@ -138,13 +160,19 @@
 	margin: 20px 16px;
 }
 
-@media screen and (max-width: 616px) {
+@media screen and (max-width: #{$global-breakpoint}) {
 	.container {
 		&.goride {	
 			.main-logo {
 				a {
 					background: url('https://d1o6t6wdv45461.cloudfront.net/s4/emails/logo-goride.png') no-repeat center center;
 				}
+			}
+		}
+
+		.main-logo {
+			a {
+				background-position: center !important;
 			}
 		}
 	}
